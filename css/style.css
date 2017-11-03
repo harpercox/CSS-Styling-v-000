@@ -41,3 +41,10 @@ figcaption{
   background: aqua;
 }
 /* Descendent Selector*/
+#logo h1 { /* selects <h1> if inside the id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 { /* selects <h2> if inside the id="logo" */
+  font-family: 'Elsie Swash Caps', cursive;
+}
